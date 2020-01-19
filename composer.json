@@ -1,28 +1,26 @@
 {
-  "name": "valiator-eli/valiator",
-  "type": "project",
-  "license": "MIT",
-  "description": "eli Provides transparent transcoding of bitrix language files. Useful when bitrix installation and packages have different encodings",
-  "keywords": [
-    "language files"
-  ],
-  "homepage": "https://eli.github.com/nook-ru/encoding-converter",
-  "authors": [
-    {
-      "name": "Marat Shamshutdinov",
-      "email": "m.shamshutdinov@gmail.com"
-    }
-  ],
-  "autoload": {
-    "psr-4": {
-      "Elilai\": ""
-    }
-  },
-  "require": {
-    "composer-plugin-api": "^1.0",
-    "ddeboer/transcoder": "^1.0"
-  },
-  "require-dev": {
-    "composer/composer": "^1.2@dev"
-  }
+	"name": "valiator-eli/valiator",
+	"type": "project",
+	"license": "MIT",
+	"description": "eli Provides transparent transcoding ",
+	"keywords": [
+		"language files"
+	],
+	"homepage": "https://eli.github.com/nook-ru/encoding-converter",
+	"authors": [{
+		"name": "Marat Shamshutdinov",
+		"email": "m.shamshutdinov@gmail.com"
+	}],
+	"autoload": {
+		"psr-4": {
+			"Elilai\\": ""
+		}
+	},
+	"require": {
+		"composer-plugin-api": "^1.0",
+		"ddeboer/transcoder": "^1.0"
+	},
+	"require-dev": {
+		"composer/composer": "^1.2@dev"
+	}
 }
